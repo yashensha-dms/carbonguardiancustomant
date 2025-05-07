@@ -2,8 +2,9 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import "./customAnt.css";
-import { Button, Flex, Space, Typography } from "antd";
+import { Button, Space, Typography, Checkbox, Form, Input } from "antd";
+import { Fields } from "./components/Fields/Fields";
+import { Colorpala } from "./components/Colorpala/Colorpala";
 
 function App() {
   const { Title, Text, Link } = Typography;
@@ -44,21 +45,36 @@ function App() {
       </Space>
 
       <div className="card">
-        <Button
-          type="primary"
-          variant="filled"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          count is {count}
-        </Button>
-
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+        <Space direction="vertical">
+          <Button
+            type="primary"
+            variant="filled"
+            onClick={() => setCount((count) => count + 1)}
+          >
+            count is {count}
+          </Button>
+          <Button type="dashed" variant="filled">
+            aaaaaaas
+          </Button>
+          <Button type="default" variant="filled">
+            aaaaaaas
+          </Button>
+          <Button type="text" variant="filled">
+            aaaaaaas
+          </Button>
+          <Button type="link" variant="filled">
+            aaaaaaas
+          </Button>
+          <Text>
+            Edit <Text code>src/App.jsx</Text> and save to test HMR
+          </Text>
+        </Space>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+
+      <Text> Click on the Vite and React logos to learn more</Text>
+
+      <Fields />
+      <Colorpala />
     </>
   );
 }

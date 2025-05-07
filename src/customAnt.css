@@ -1,59 +1,44 @@
-h1:where(.css-dev-only-do-not-override-bppd0n).ant-typography,
-div:where(.css-dev-only-do-not-override-bppd0n).ant-typography-h1,
-div:where(.css-dev-only-do-not-override-bppd0n).ant-typography-h1 > textarea,
-:where(.css-dev-only-do-not-override-bppd0n).ant-typography h1 {
+h1 {
   letter-spacing: -2.4px;
   font-size: 40px;
   font-weight: 600;
-  margin: 0;
-  line-height: 56px;
+  margin: 0 !important;
+  line-height: 56px !important;
 }
 
-h2:where(.css-dev-only-do-not-override-bppd0n).ant-typography,
-div:where(.css-dev-only-do-not-override-bppd0n).ant-typography-h2,
-div:where(.css-dev-only-do-not-override-bppd0n).ant-typography-h2 > textarea,
-:where(.css-dev-only-do-not-override-bppd0n).ant-typography h2 {
+h2 {
   letter-spacing: -1.28px;
   font-size: 32px;
   font-weight: 600;
   margin: 0 !important;
-  line-height: 40px;
+  line-height: 40px !important;
 }
 
-h3:where(.css-dev-only-do-not-override-bppd0n).ant-typography,
-div:where(.css-dev-only-do-not-override-bppd0n).ant-typography-h3,
-div:where(.css-dev-only-do-not-override-bppd0n).ant-typography-h3 > textarea,
-:where(.css-dev-only-do-not-override-bppd0n).ant-typography h3 {
+h3 {
   letter-spacing: -0.48px;
   font-size: 24px;
   font-weight: 600;
   margin: 0 !important;
-  line-height: 32px;
+  line-height: 32px !important;
 }
 
-h4:where(.css-dev-only-do-not-override-bppd0n).ant-typography,
-div:where(.css-dev-only-do-not-override-bppd0n).ant-typography-h4,
-div:where(.css-dev-only-do-not-override-bppd0n).ant-typography-h4 > textarea,
-:where(.css-dev-only-do-not-override-bppd0n).ant-typography h4 {
+h4 {
   letter-spacing: -0.4px;
   font-size: 20px;
   font-weight: 600;
   margin: 0 !important;
-  line-height: 26px;
+  line-height: 26px !important;
 }
 
-h5:where(.css-dev-only-do-not-override-bppd0n).ant-typography,
-div:where(.css-dev-only-do-not-override-bppd0n).ant-typography-h5,
-div:where(.css-dev-only-do-not-override-bppd0n).ant-typography-h5 > textarea,
-:where(.css-dev-only-do-not-override-bppd0n).ant-typography h5 {
+h5 {
   letter-spacing: -0.32px;
   font-size: 16px;
   font-weight: 600;
   margin: 0 !important;
-  line-height: 20px;
+  line-height: 20px !important;
 }
 
-:where(.css-dev-only-do-not-override-bppd0n).ant-typography {
+.css-dev-only-do-not-override-i8rsjg.ant-typography {
   font-size: 14px;
   line-height: 20px;
 }
@@ -67,5 +52,5 @@ div:where(.css-dev-only-do-not-override-bppd0n).ant-typography-h5 > textarea,
 :where(.css-dev-only-do-not-override-bppd0n).ant-typography kbd {
   font-family: "Geist mono", monospace;
   font-size: 14px;
-  line-height: 140%px;
+  line-height: 140%;
 }
